@@ -100,7 +100,8 @@ for (let x = 0; x < 6; x++) {
 
   }
 
-  if (x == 5) { alert('My favorate drink are ['coffe', 'tea', 'nescafe', 'late', 'moca'] ') };
+  if (x == 5) { alert('My favorate drink are' ['coffe', 'tea', 'nescafe', 'late', 'moca'] )
+  };
 
 }
 

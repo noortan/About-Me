@@ -12,29 +12,18 @@ header h1 {
      margin-right: auto;
      width: 50%;
      height:350px ;
-   }
-   .na1{
-     font-size: 30px ;
-     line-height: 1.5;
-     
-   }
-   .na2{
-   font-size: 30px ;
-     line-height: 1.5;
-    
-   }
+   
+   
      .na3{
-       font-size: 30px ;
+       font-size: 20px ;
      line-height: 1.5;
+     }
     
-     }
-     .na4{
-        font-size: 30px ;
-     line-height: 1.5;
-     }
+   
       footer{
         background-color: #e798ae
       }
+
       #myTopTen
 {
     margin-top: 15px;
@@ -48,11 +37,8 @@ header h1 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     border-radius: 20px;
 }
-#myTopTen ol li img 
-{
-    width: 30px;
-    margin-left: 50px;
-}
+
+
 #work_experience h3 , #myTopTen h3
 {
     font-size: 30px;
@@ -64,6 +50,27 @@ header h1 {
     text-shadow: 0 0 4px white;
 }
 #work_experience ul li
+{
+    display: block;
+    background-color: rgba(161, 245, 203, 0.514);
+    padding: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 20px;
+}
+
+
+
+#000 work_experience1 h3 , #myTopTen h3
+{
+    font-size: 30px;
+    text-shadow: 0 0 4px white;
+}
+#work_experience1 h3 , #myTopTen h3
+{
+    font-size: 30px;
+    text-shadow: 0 0 4px white;
+}
+#work_experience1 ul li
 {
     display: block;
     background-color: rgba(161, 245, 203, 0.514);
