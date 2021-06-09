@@ -64,3 +64,46 @@ if( knowMore === "yes" || workPlace === "y"){
 } else{
   alert( "please enter you answer as yes , y , no , n")
 }
+
+for (let i = 0; i < 4; i++) {
+  let myAge = prompt('can you guess how old are me ? ');
+  if (myAge === 32) {
+    alert(' yes it is ^_^ ');
+  }
+  else if (myAge > 32) { alert('too hight , try again') }
+
+  else if (myAge < 32) {
+    alert('too low, try again');
+  }
+
+  else {
+    alert('okay , I am 32 years old ');
+    break;
+  }
+  if (i == 3) { alert(' ops you can not guess my ege ,i am 32 years old ^_^'); }
+}
+ 
+let favdrink = ['coffe', 'tea', 'nescafe', 'late', 'moca'];
+for (let x = 0; x < 6; x++) {
+  let guessDrink = prompt('Can you guess my favorite drink? \n Please type a drink').toLowerCase();
+
+  if (guessDrink === favdrink[0] || guessDrink === favdrink[1] || guessDrink === favdrink[2] || guessDrink == favdrink[3] || guessDrink == favdrink[4]) {
+    alert('nice work! , thats correct');
+    console.log(' true');
+    score++;
+    break;
+  }
+
+  else {
+    alert('please , try again')
+
+
+  }
+
+  if (x == 5) { alert('My favorate drink are ['coffe', 'tea', 'nescafe', 'late', 'moca'] ') };
+
+}
+
+
+alert(`Thank you ${userName} Your score is = ${score}/7 `)
+console.log('your score =', score)
