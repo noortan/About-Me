@@ -13,25 +13,16 @@ header h1 {
      width: 50%;
      height:350px ;
    }
-   .na1{
-     font-size: 30px ;
-     line-height: 1.5;
-     
-   }
-   .na2{
-   font-size: 30px ;
-     line-height: 1.5;
+  
+ 
     
-   }
+   
      .na3{
        font-size: 30px ;
      line-height: 1.5;
     
      }
-     .na4{
-        font-size: 30px ;
-     line-height: 1.5;
-     }
+   
       footer{
         background-color: #e798ae
       }
@@ -70,4 +61,19 @@ header h1 {
     padding: 30px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     border-radius: 20px;
+}
+
+#expert
+{
+    margin-top: 15px;
+}
+
+
+#expert ul
+{
+    background-color: #A0937D;
+    padding: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 20px;
+    font-size: larger;
 }
