@@ -12,20 +12,12 @@ header h1 {
      margin-right: auto;
      width: 50%;
      height:350px ;
-   }
-  
- 
-    
-   
-     .na3{
-       font-size: 30px ;
-     line-height: 1.5;
-    
      }
    
       footer{
         background-color: #e798ae
       }
+
       #myTopTen
 {
     margin-top: 15px;
@@ -39,11 +31,8 @@ header h1 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     border-radius: 20px;
 }
-#myTopTen ol li img 
-{
-    width: 30px;
-    margin-left: 50px;
-}
+
+
 #work_experience h3 , #myTopTen h3
 {
     font-size: 30px;

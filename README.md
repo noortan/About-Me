@@ -1,2 +1,4 @@
 # About-Me
-Teach us more about you! Build out an “About Me” webpage that quizzes the user on fun facts gives the user some basic information about who you are and where you came from. We will build onto this project over the next few labs. Be prepared to refactor your code each day and learn about how a web site incrementally goes from an idea to a deployed site through various iterations of development.
+
+ here in this webpage you will see details about me **Noortan Abudarwesh** i hope to get interest for know more information  about me 
+ we will work as pair programming up from now 

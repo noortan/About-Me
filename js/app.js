@@ -86,7 +86,7 @@ function funWork() {
           break;
       case 'n':
       case 'no':
-          alert('its suadie arabia  *_*');
+          alert('its suadie a *_*');
           break;
       default:
           alert(' please answer the questions as y/n or yes/no');
@@ -95,20 +95,18 @@ function funWork() {
 }
 
 
-
-
 function funKnow() {
-  let knowMore = prompt("We're almost done do you want to know more details about me ? ");
-  switch (knowMore.toLowerCase()) {
+  let workPlace = prompt("We're almost done do you want to know more details about me ?");
+  switch (workPlace.toLowerCase()) {
       case 'y':
       case 'yes':
 
-          alert('Thank you , now you can explore my web page  ^_^');
+          alert('you can explore my web page   ^_^');
           count++;
           break;
       case 'n':
       case 'no':
-          alert('oOoOops *_*');
+          alert('  ok ,*_*');
           break;
       default:
           alert(' please answer the questions as y/n or yes/no');
@@ -116,13 +114,8 @@ function funKnow() {
   }
 }
 
-
-
-
-
 let score = 0;
-let count = 0; 
-
+let count = 0;
 function myAge() {
   for (let i = 0; i < 4; i++) {
     let myAge = prompt('can you guess how old am i ? ');
@@ -184,6 +177,10 @@ function favor(ri) {
 alert('my favorite name is  \n' + favor(favdrink));
 funPlace() ;
 funDrink() ;
-funProg() ;
-funWork() ; 
-funKnow(); 
+funProg() ; 
+funWork() ;
+funKnow() ;
+
+
+
+
